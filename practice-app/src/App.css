@@ -1,0 +1,51 @@
+.container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height: 100vh;
+  flex-direction:column;
+
+}
+
+.output{
+  outline:none;
+  border:none;
+  width:300px;
+  height:70px;
+  font-size:32px;
+  padding: 2px 10px;
+  background:#333333;
+  color:white;
+  border-top-left-radius:6px;
+  border-top-right-radius:6px;
+  text-align:right;
+
+}
+
+
+.keypad {
+  display:flex;
+  flex-direction: column;
+}
+
+.row{
+  display:flex;
+}
+
+button{
+  flex:1;
+  width:70px;
+  height:90px;
+  font-size:26px;
+  cursor:pointer;
+  border:none;
+  border-top:1px solid #666;
+  border-right: 1px solid #666;
+  
+}
+
+.operator{
+  color:white;
+  background:yellow;
+  border-right:none;
+}
